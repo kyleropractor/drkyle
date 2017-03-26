@@ -1,0 +1,59 @@
+.headerImage {
+  float: right;
+  width: 50%;
+}
+.para {
+  width: 50%;
+  display: block;
+}
+.opener {
+  width: 100%;
+}
+.myNav {
+  margin-bottom: 0;
+}
+footer {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: gray;
+}
+
+/*************
+Techniques
+*************/
+#chiropractic {
+  height: 600px;
+}
+#therEx {
+  height: 600px;
+  background-color: lightgray;
+}
+#manual {
+  height: 600px;
+}
+#nutrition {
+  height: 600px;
+  background-color: lightgray;
+}
+/*************
+About
+*************/
+.aboutBody {
+  width: 80%;
+  padding: 0 10%;
+  margin-bottom: 100px;
+}
+
+
+
+
+/*************
+Photo Gallery
+*************/
+#photoHeader {
+  margin-bottom: 800px;
+}
+.photos {
+  margin-bottom: 100px;
+}
