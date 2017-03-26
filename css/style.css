@@ -57,3 +57,19 @@ Photo Gallery
 .photos {
   margin-bottom: 100px;
 }
+
+
+/*************
+Back to top button
+*************/
+a.back-to-top {
+	display: none;
+	width: 80px;
+	height: 60px;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 999;
+	right: 20px;
+	bottom: 60px;
+  background: url(../img/icon-arrow-up-b-128.png) no-repeat center;
+}
