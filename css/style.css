@@ -1,3 +1,6 @@
+/*************
+Main
+*************/
 .headerImage {
   float: right;
   width: 15%;
@@ -8,11 +11,8 @@
 }
 .opener {
   width: 100%;
-<<<<<<< HEAD
   height: 200px;
-=======
   height: 300px;
->>>>>>> origin/master
 }
 .myNav {
   margin-bottom: 0;
@@ -61,6 +61,16 @@ About
   padding: 0 10%;
   margin-bottom: 100px;
 }
+/*.aboutThumbnails {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+Trying to figure out flexbox
+
+*/
+
+
 /*************
 Contact
 *************/
@@ -86,13 +96,15 @@ Carousel
 .carousel-inner > .item > img {
     margin: 0 auto;
     width:50%;
-    height:570px;
+    height:50%;
 }
-.carousel-control {
-  margin: 0 auto;
-  width:50%;
-  height:570px;  
+/*************
+Jumbotron
+*************/
+.jumbotron {
+  padding: 50px;
 }
+
 /*************
 Back to top button
 *************/
@@ -106,4 +118,13 @@ a.back-to-top {
 	right: 20px;
 	bottom: 60px;
   background: url(../img/icon-arrow-up-b-128.png) no-repeat center;
+}
+
+/*************
+Front page thumbnails
+*************/
+.contentThumbnails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
