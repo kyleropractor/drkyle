@@ -1,6 +1,6 @@
 .headerImage {
   float: right;
-  width: 50%;
+  width: 15%;
 }
 .para {
   width: 50%;
@@ -8,6 +8,7 @@
 }
 .opener {
   width: 100%;
+  height: 200px;
 }
 .myNav {
   margin-bottom: 0;
@@ -17,6 +18,18 @@ footer {
   padding: 10px;
   text-align: center;
   color: gray;
+}
+.container2 {
+  display: flex;
+  margin-bottom: 300px;
+}
+.indexBox {
+  padding: 80px;
+  background-color: gray;
+  margin: 20px;
+}
+.indexBox li {
+  display: inline-block;
 }
 
 /*************
@@ -62,8 +75,20 @@ Photo Gallery
 .photos {
   margin-bottom: 100px;
 }
+/*************
+Carousel
+*************/
 
-
+.carousel-inner > .item > img {
+    margin: 0 auto;
+    width:50%;
+    height:570px;
+}
+.carousel-control {
+  margin: 0 auto;
+  width:50%;
+  height:570px;  
+}
 /*************
 Back to top button
 *************/
