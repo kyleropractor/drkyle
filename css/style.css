@@ -1,6 +1,9 @@
 /*************
 Main
 *************/
+body {
+background-color: lightblue;
+}
 .headerImage {
   float: right;
   width: 15%;
@@ -12,16 +15,9 @@ Main
 .opener {
   width: 100%;
   height: 200px;
-  height: 300px;
 }
 .myNav {
   margin-bottom: 0;
-}
-footer {
-  background-color: black;
-  padding: 10px;
-  text-align: center;
-  color: gray;
 }
 .container2 {
   display: flex;
@@ -35,9 +31,18 @@ footer {
 .indexBox li {
   display: inline-block;
 }
+/*************
+Homepage
+*************/
+.carousel-control {
+  background-color: lightblue;
+}
+.glyphicon {
+  color: white;
+}
 
 /*************
-Techniques
+Nutrition
 *************/
 #chiropractic {
   height: 600px;
@@ -52,6 +57,14 @@ Techniques
 #nutrition {
   height: 600px;
   background-color: lightgray;
+}
+.nutSubheading {
+  margin: 0 10%;
+}
+.venn-diagram {
+    display: block;
+    margin: auto;
+    width: 30%;
 }
 /*************
 About
@@ -78,8 +91,6 @@ Contact
   margin-bottom: 200px;
 }
 
-
-
 /*************
 Photo Gallery
 *************/
@@ -92,7 +103,6 @@ Photo Gallery
 /*************
 Carousel
 *************/
-
 .carousel-inner > .item > img {
     margin: 0 auto;
     width:50%;
@@ -103,6 +113,7 @@ Jumbotron
 *************/
 .jumbotron {
   padding: 50px;
+  margin-bottom: 0;
 }
 
 /*************
@@ -127,4 +138,20 @@ Front page thumbnails
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+/*************
+Footer
+*************/
+
+.ivy {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: .75em;
+  margin-top: -15px;
+}
+footer {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: gray;
 }
